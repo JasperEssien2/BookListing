@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:widgetLayout="@color/colorPreferenceBackground">
+    <EditTextPreference
+        android:defaultValue="@string/max_result_default"
+        android:inputType="number"
+        android:key="@string/max_result_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/max_result" />
+
+    <ListPreference
+        android:defaultValue="@string/order_by_none_value"
+        android:entries="@array/order_by_key"
+        android:entryValues="@array/order_by_labels"
+        android:icon="@drawable/ic_order_by_dark"
+        android:key="@string/order_by_array_key"
+        android:title="@string/order_by" />
+
+    <ListPreference
+        android:defaultValue="@string/filter_none_val"
+        android:entries="@array/filter_labels"
+        android:entryValues="@array/filter_values"
+        android:icon="@drawable/ic_filter_list"
+        android:key="@string/filter_list_key"
+        android:title="Filter results">
+
+    </ListPreference>
+
+    <ListPreference
+        android:defaultValue="@string/print_type_all_val"
+        android:entries="@array/print_type_labels"
+        android:entryValues="@array/print_type_values"
+        android:key="@string/print_type_list_key"
+        android:title="@string/print_type" />
+
+    <ListPreference
+        android:defaultValue="@string/mature_rating_none_val"
+        android:entries="@array/mature_rating_labels"
+        android:entryValues="@array/mature_rating_values"
+        android:key="@string/mature_rating_list_key"
+        android:title="@string/mature_rating" />
+
+    <SwitchPreference
+        android:title="@string/download_available_label"
+        android:key="@string/download_available_key"
+        android:switchTextOff="@string/download_available_switch_off"
+        android:switchTextOn="@string/download_available_switch_on"
+        android:defaultValue="@string/download_available_val"/>
+
+    <SwitchPreference
+        android:title="@string/change_theme_title"/>
+
+</PreferenceScreen>

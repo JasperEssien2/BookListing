@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="order_by_labels">
+        <item>@string/order_by_none_value</item>
+        <item>@string/order_by_newest_value</item>
+        <item>@string/order_by_relevance_value</item>
+    </string-array>
+
+    <string-array name="order_by_key">
+        <item>@string/order_by_none_label</item>
+        <item>@string/order_by_newest_label</item>
+        <item>@string/order_by_relevance_label</item>
+    </string-array>
+
+    <string-array name="filter_labels">
+        <item>@string/filter_none_label</item>
+        <item>@string/filter_ebooks_label</item>
+        <item>@string/filter_free_ebooks_label</item>
+        <item>@string/filter_paid_ebooks_label</item>
+        <item>@string/filter_full_label</item>
+        <item>@string/filter_partial_label</item>
+    </string-array>
+
+    <string-array name="filter_values">
+        <item>@string/filter_none_val</item>
+        <item>@string/filter_ebooks_val</item>
+        <item>@string/filter_free_ebooks_val</item>
+        <item>@string/filter_paid_ebooks_val</item>
+        <item>@string/filter_full_val</item>
+        <item>@string/filter_partial_val</item>
+    </string-array>
+
+    <string-array name="print_type_labels">
+        <item>@string/print_type_all_label</item>
+        <item>@string/print_type_books_label</item>
+        <item>@string/print_type_mags_label</item>
+    </string-array>
+
+    <string-array name="print_type_values">
+        <item>@string/print_type_all_val</item>
+        <item>@string/print_type_books_val</item>
+        <item>@string/print_type_mags_val</item>
+    </string-array>
+
+    <string-array name="mature_rating_labels">
+        <item>@string/mature_rating_none_label</item>
+        <item>@string/mature_rating_not_mature_label</item>
+        <item>@string/mature_rating_mature_label</item>
+    </string-array>
+
+    <string-array name="mature_rating_values">
+        <item>@string/mature_rating_none_val</item>
+        <item>@string/mature_rating_not_mature_val</item>
+        <item>@string/mature_rating_mature_val</item>
+    </string-array>
+
+</resources>

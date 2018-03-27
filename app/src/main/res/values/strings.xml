@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Book Listing</string>
+
+    <string name="search_hint">Search book</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="no_book_found">No book found for your search.. Try again</string>
+    <string name="max_result_value_high">Value too high.. maximum value allowed is 40</string>
+
+    <string name="setting_title">Settings</string>
+    <string name="max_result">Max result</string>
+    <string name="max_result_default">10</string>
+    <string name="max_result_key">max_result</string>
+
+    <string name="order_by_array_key">order_by</string>
+    <string name="order_by">Order by</string>
+    <string name="order_by_none_value">none</string>
+    <string name="order_by_newest_value">newest</string>
+    <string name="order_by_relevance_value">relevance</string>
+
+    <string name="order_by_none_label">none</string>
+    <string name="order_by_newest_label">newest</string>
+    <string name="order_by_relevance_label">relevance</string>
+
+    <string name="filter_list_key">filter_list</string>
+    <string name="filter_none_label">none</string>
+    <string name="filter_ebooks_label">ebooks</string>
+    <string name="filter_free_ebooks_label">free-ebooks</string>
+    <string name="filter_full_label">full</string>
+    <string name="filter_paid_ebooks_label">paid-ebooks</string>
+    <string name="filter_partial_label">partial</string>
+
+    <string name="filter_none_val">none</string>
+    <string name="filter_ebooks_val">ebooks</string>
+    <string name="filter_free_ebooks_val">free-ebooks</string>
+    <string name="filter_full_val">full</string>
+    <string name="filter_paid_ebooks_val">paid-ebooks</string>
+    <string name="filter_partial_val">partial</string>
+
+    <string name="print_type">Print type</string>
+    <string name="print_type_list_key">print_type_list</string>
+    <string name="print_type_all_label">all</string>
+    <string name="print_type_books_label">books</string>
+    <string name="print_type_mags_label">magazines</string>
+
+    <string name="print_type_all_val">all</string>
+    <string name="print_type_books_val">books</string>
+    <string name="print_type_mags_val">magazines</string>
+
+    <string name="mature_rating">Mature rating</string>
+    <string name="mature_rating_list_key">mature_rating</string>
+    <string name="mature_rating_none_label">none</string>
+    <string name="mature_rating_mature_label">mature</string>
+    <string name="mature_rating_not_mature_label">not-mature</string>
+
+    <string name="mature_rating_none_val">none</string>
+    <string name="mature_rating_mature_val">mature</string>
+    <string name="mature_rating_not_mature_val">not-mature</string>
+
+    <string name="download_available_key">download_availability_restrict</string>
+    <string name="download_available_label">Restrict result by download availability</string>
+    <string name="download_available_val">false</string>
+    <string name="download_available_switch_off">No</string>
+    <string name="download_available_switch_on">Yes</string>
+
+    <!--BookInfoActivity strings-->
+    <string name="info_book_description">Description</string>
+    <string name="info_book_description_text">No description found for this book.</string>
+    <string name="info_book_type_label">Type</string>
+    <string name="info_book_type">Type: Not available</string>
+
+    <string name="info_book_author_label">Author(s)</string>
+    <string name="info_book_author">Autors(s): Not available</string>
+
+    <string name="info_book_mature_rating_label">Mature rating: </string>
+    <string name="info_book_mature_rating">Not available</string>
+
+    <string name="info_book_viewability_label">Viewability: </string>
+    <string name="info_book_viewability">None</string>
+
+    <string name="info_book_downloadable_label">downloadable link</string>
+    <string name="info_book_epub_label">epub: </string>
+    <string name="info_book_epub_link">None</string>
+
+    <string name="info_book_pdf_label">pdf: </string>
+    <string name="info_book_pdf_link">None</string>
+
+    <string name="info_book_preview_label">preview link:  </string>
+    <string name="info_book_preview_link"> None</string>
+
+    <string name="info_book_read_label">read link:  </string>
+    <string name="info_book_read_link"> None</string>
+
+    <string name="info_book_purchase_link_title">Click here to purchase</string>
+
+    <string name="no_recent_search">You have not conducted any search. Click on the search button and perform a search</string>
+
+    <string name="free">Free</string>
+
+    <string name="change_theme_title">Off night theme</string>
+
+
+</resources>

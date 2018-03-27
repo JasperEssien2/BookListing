@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:background="@color/colorBookInfoBAckground"
+    android:layout_marginBottom="4dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="0dp"
+        android:id="@+id/book_icon"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:background="@color/colorBookTitleBackground"
+        tool:src="@drawable/ic_book"
+        android:src="@drawable/ic_book"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:id="@+id/book_title"
+            android:textColor="#ffffff"
+            android:maxLines="2"
+            android:layout_marginBottom="4dp"
+            android:textAllCaps="true"
+            android:gravity="center_vertical|start"
+
+            tool:text="BOOK TITLE: HORROR LIFE"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="0dp"
+                android:layout_weight="0.55">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/type"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:textAllCaps="true"
+                    android:maxLines="1"
+                    android:gravity="center_vertical|left"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/smallTextSize"
+                    tool:text="TYPE: MAGAZINE"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:gravity="center|right"
+                    android:layout_height="match_parent"
+                    android:id="@+id/author"
+                    android:paddingRight="16dp"
+                    android:maxLines="1"
+                    android:layout_weight="1"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/smallTextSize"
+                    tool:text="AUTHOR: MIC RIGHTEOUS"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:src="@drawable/ic_action_name"
+        android:layout_height="match_parent"
+        android:layout_weight="0.12" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9C27B0</color>
+    <color name="colorPrimaryDark">#7B1FA2</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBookTitleBackground">#000000</color>
+    <color name="colorBookInfoBAckground">#000000</color>
+    <color name="colorEmptyStateBackground">#616161</color>
+    <color name="colorPreferenceBackground">#9E9E9E</color>
+    <color name="colorPreferenceText">#ffffff</color>
+
+    <color name="colorBookInfoNightBackground">#000000</color>
+    <color name="colorBookInfoNightText">#ffffff</color>
+
+    <color name="colorBookInfoLightBackground">#ffffff</color>
+    <color name="colorBookInfoLightText">#000000</color>
+
+    <color name="colorClickableLinks">#2196F3</color>
+</resources>
